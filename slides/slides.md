@@ -181,9 +181,7 @@ self.addEventListener('fetch', function(event) {
 
 ***
 
-FIXME complete programmatic control
-
-backwards compatible
+### You have complete control<br />over requests and responses
 
 ***
 
@@ -253,6 +251,14 @@ navigator.serviceWorker.ready
   }))
   .then(res => ...);
 ```
+
+***
+
+![](img/push1.dot.svg) <!-- .element: style="max-width: 90%" -->
+
+***
+
+![](img/push2.dot.svg) <!-- .element: style="max-width: 90%" -->
 
 <!-- }}} -->
 
@@ -326,7 +332,7 @@ ___
 
 Free workshop on Monday!
 
-Info at [2016.jsconf.is/schedule](https://2016.jsconf.is/schedule/)
+Info at [meetup.com/Javascript-Iceland/](http://www.meetup.com/Javascript-Iceland/)
 
 ___
 

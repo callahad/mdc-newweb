@@ -1,0 +1,22 @@
+digraph {
+
+  graph [ nodesep = "1" ]
+  node [ fontname = "OpenSans Bold" ]
+  edge [ fontname = "OpenSans Italic" ]
+
+  "Push Service"
+
+  {
+    rank = same
+    Browser
+    Website
+  }
+
+
+  Browser -> "Push Service" [ xlabel = "2" ]
+  "Push Service" -> Browser [ xlabel = "3" ]
+  Browser -> Website [ xlabel = "4" ]
+  Website -> Browser [ xlabel = "1" ]
+
+  Website -> "Push Service" -> Website [ style = "invis" ]
+}
