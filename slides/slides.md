@@ -1,14 +1,5 @@
 <!-- {{{ Intro -->
 
-```javascript
-function hello() {
-  // Please sit where you can read this
-  console.log("Hello, World!");
-}
-```
-
-***
-
 # The <span class="fragment fade-out">New<br>Mobile</span> Web
 
 ___
@@ -19,21 +10,13 @@ ___
 
 ***
 
-<!-- .slide: data-background="black" -->
-
-![](img/twitter-fridge.jpg) <!-- .element: style="max-width: 75%" -->
-
-<span style="font-size: 1.2rem; position: absolute; right: 0; bottom: 0;">Photo by [@DakotaTheKat](https://twitter.com/dakotathekat/status/736914710185058304)</span>
-
-***
-
 # Only One Web
 
 ## Open. Universal. Decentralized.
 
 ***
 
-### <em>The Internet is a global public resource that must remain open and accessible.</em>
+### _The Internet is a global public resource that must remain open and accessible._
 
 &mdash;[The Mozilla Manifesto](https://www.mozilla.org/en-US/about/manifesto/)
 
@@ -41,35 +24,15 @@ ___
 
 ![](img/firefox_logo-wordmark-vert_RGB.png) <!-- .element: style="max-width: 50%" -->
 
-<!-- }}} -->
+***
 
----
-
-<!-- {{{ Mobile Advantages -->
-
-# Apps vs Web
+<!-- .slide: data-background="black", data-background-image="img/twitter-fridge.jpg", data-background-size="cover" -->
 
 ***
 
 <!-- .slide: data-background="black" -->
 
 ![](img/twitter-offline.png) <!-- .element: style="max-width: 50%" -->
-
-***
-
-## Apps won
-
-1. Reliable (Works Offline)
-2. Engaging (Notifications)
-3. Installable
-
-***
-
-## In 2016, that changes
-
-1. Service Worker
-2. Web Push
-3. App Manifest
 
 <!-- }}} -->
 
@@ -104,15 +67,13 @@ function getData() {
 
 ***
 
-## Promises in New Web Features
+## Promises are everywhere
 
 ___
 
-fetch, serviceworker, push, background sync
+Fetch, Service Worker, Push, Background Sync
 
-es2017 async / await
-
-permission apis?
+`async` / `await` keywords
 
 <!-- }}} -->
 
@@ -122,7 +83,7 @@ permission apis?
 
 # Reliability
 
-## (Offline Support)
+## (Service Workers)
 
 ***
 
@@ -141,6 +102,10 @@ permission apis?
 ***
 
 ![](img/letsencrypt-logo-horizontal.svg) <!-- .element: style="max-width: 50%" -->
+
+***
+
+<!-- .slide: data-background="black", data-background-image="img/pylsa.jpg", data-background-size="cover" -->
 
 ***
 
@@ -213,6 +178,12 @@ self.addEventListener('fetch', function(event) {
 <!-- }}} -->
 
 <em style="font-size: 1.2rem; position: absolute; right: 0; bottom: 0;">Diagram from [The Offline Cookbook](https://jakearchibald.com/2014/offline-cookbook/)</em>
+
+***
+
+FIXME complete programmatic control
+
+backwards compatible
 
 ***
 
@@ -291,9 +262,11 @@ navigator.serviceWorker.ready
 
 # Installation
 
+## (App Manifests)
+
 ***
 
-## App Manifests
+### App Manifests are like &lt;head&gt; tags, <br /> but for multi-page web apps
 
 ***
 
@@ -325,23 +298,41 @@ navigator.serviceWorker.ready
 
 <!-- }}} -->
 
+***
+
+<!-- .slide: data-background="black" -->
+
+<video controls class="stretch" src="img/opera.mp4"></video>
+
+<!-- }}} -->
+
+***
+
+_...is a Web without URLs still the Web?_
+
 ---
 
 <!-- {{{ Conclusion -->
 
-# The Web Can Be
-
-### Installable, Reliable, and Engaging
-
-___
-
-### Open, Universal, and Compatible
+## Work _with_ the Web
 
 ***
 
-# Questions?
+# Thank You
 
 Slides & links at [github.com/callahad/jsis-newweb](https://github.com/callahad/jsis-newweb)
+
+___
+
+Free workshop on Monday!
+
+Info at [2016.jsconf.is/schedule](https://2016.jsconf.is/schedule/)
+
+___
+
+Photo credits:
+  [@DakotaTheKat](https://twitter.com/dakotathekat/status/736914710185058304),
+  [Ian Crowther](https://www.flickr.com/photos/ian_crowther/14461236604/)
 
 <!-- }}} -->
 
