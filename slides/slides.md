@@ -181,13 +181,17 @@ self.addEventListener('fetch', function(event) {
 
 ***
 
-### You have complete control<br />over requests and responses
-
-***
-
 <!-- .slide: data-background="black" -->
 
 <video controls class="stretch" src="img/pokedex.mp4"></video>
+
+***
+
+### Complete programmatic control<br />over requests and responses
+
+___
+
+You can do [way more](https://github.com/gmetais/sw-delta) than simple caching
 
 <!-- }}} -->
 
