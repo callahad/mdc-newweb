@@ -127,7 +127,7 @@ self.addEventListener('install', function(event) {
 
   event.waitUntil(
     caches.open('my-cache-v1')
-      .then(cache => cache.addAll(deps));
+      .then(cache => cache.addAll(deps))
   );
 });
 ```
