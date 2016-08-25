@@ -341,7 +341,7 @@ ___
 
 # Questions?
 
-Slides & links at [github.com/callahad/mjs16-newweb](https://github.com/callahad/mjs16-newweb)
+Slides & links at [github.com/callahad/jsis-newweb](https://github.com/callahad/jsis-newweb)
 
 <!-- }}} -->
 

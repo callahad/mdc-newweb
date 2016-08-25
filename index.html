@@ -6,14 +6,26 @@
   </head>
   <body>
     <h1>The New Mobile Web: ServiceWorker, Push, and App Manifests</h1>
-    <p>Presented by <a href="https://twitter.com/callahad">@callahad</a> at <a href="http://midwestjs.com">Midwest JS 2016</a>, August 12th, 2016.</p>
+    <p>Presented by <a href="https://twitter.com/callahad">@callahad</a> at <a href="http://2016.jsconf.is">JSConf Iceland</a>, August 25th, 2016.</p>
     <p><a href="./slides">View the slides</a> (GitHub Pages)</p>
-    <p><a href="https://github.com/callahad/mjs16-newweb">View the code</a> (GitHub)</p>
-    <p>Links:</p>
+    <p><a href="https://github.com/callahad/jsis-newweb">View the code</a> (GitHub)</p>
+    <p>Resources:</p>
     <ul>
-      <li><a href="https://serviceworke.rs">Service Worker Cookbook</a></li>
-      <li><a href="https://jakearchibald.com/2014/offline-cookbook/">Offline Cookbook</a></li>
-      <li><a href="https://www.youtube.com/watch?v=cmGr0RszHc8">Instant Loading: Building offline-first Progressive Web Apps - Google I/O 2016</a></li>
+      <li><a href="https://serviceworke.rs">Service Worker Cookbook</a>, with many annotated demos of using service works in various ways, including push notifications, offline support, and more.</li>
+      <li><a href="https://jakearchibald.com/2014/offline-cookbook/">Offline Cookbook</a>, which comprehensively describes strategies for handling interactions between the network, service workers, and caches.</li>
+      <li><a href="https://www.youtube.com/watch?v=cmGr0RszHc8">Instant Loading: Building offline-first Progressive Web Apps - Google I/O 2016</a>, an exceptional talk by Jake Archibald that incrementally converts a traditional web app to one that makes full use of service workers and manifests.</li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">MDN: Using Service Workers</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">MDN: Service Worker APIs</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API">MDN: Push API</a></li>
+      <li><a href="https://hacks.mozilla.org/2016/01/web-push-arrives-in-firefox-44/">Mozilla Hacks: Web Push Arrives in Firefox 44</a></li>
+    </ul>
+    <p>Experiments and Examples</p>
+    <ul>
+      <li><a href="https://www.pokedex.org/">Pokedex.org</a>, Nolan Lawson's </li>
+      <li><a href="https://dev.opera.com/blog/pwa-badge-pop/">Ambient badging and “pop into browser”</a>, Opera's experiments with the transitions between web-like and app-like experiences.</li>
+      <li><a href="https://github.com/gmetais/sw-delta">sw-delta</a>, Gaël Métais's experiment using service workers to patch cached files instead of retransmitting the whole thing.</li>
+      <li><a href="https://gist.github.com/inexorabletash/687e7c5914049536f5a3">URLs into IndexedDB</a>, Joshua Bell's experiment using service workers to fetch data from IndexedDB based on URLs.</li>
+      <li><a href="https://pwa.rocks/">PWA.Rocks</a>, an index of websites using Service Workers and App Manifests.</li>
     </ul>
   </body>
 </html>
