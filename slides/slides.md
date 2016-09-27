@@ -105,10 +105,6 @@ Fetch, Service Worker, Push, Background Sync
 
 ***
 
-<!-- .slide: data-background="black", data-background-image="img/pylsa.jpg", data-background-size="cover" -->
-
-***
-
 ## Service Worker Registration
 
 ```javascript
