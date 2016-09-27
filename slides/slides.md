@@ -330,13 +330,7 @@ _...is a Web without URLs still the Web?_
 
 # Thank You
 
-Slides & links at [github.com/callahad/jsis-newweb](https://github.com/callahad/jsis-newweb)
-
-___
-
-Free workshop on Monday!
-
-Info at [meetup.com/Javascript-Iceland/](http://www.meetup.com/Javascript-Iceland/)
+Slides & links at [github.com/callahad/mdc-newweb](https://github.com/callahad/mdc-newweb)
 
 ___
 
