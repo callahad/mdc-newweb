@@ -258,11 +258,11 @@ navigator.serviceWorker.ready
 
 ***
 
-![](img/push1.dot.svg) <!-- .element: style="max-width: 90%" -->
+![](img/push1.dot.svg) <!-- .element: style="max-width: 80%; min-width: 80%" -->
 
 ***
 
-![](img/push2.dot.svg) <!-- .element: style="max-width: 90%" -->
+![](img/push2.dot.svg) <!-- .element: style="max-width: 80%; min-width: 80%" -->
 
 <!-- }}} -->
 
