@@ -332,7 +332,6 @@ ___
 
 Photo credits:
   [@DakotaTheKat](https://twitter.com/dakotathekat/status/736914710185058304),
-  [Ian Crowther](https://www.flickr.com/photos/ian_crowther/14461236604/)
 
 <!-- }}} -->
 
