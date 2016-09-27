@@ -10,6 +10,10 @@ ___
 
 ***
 
+![](img/wap.gif)
+
+***
+
 # Only One Web
 
 ## Open. Universal. Decentralized.
@@ -332,6 +336,7 @@ ___
 
 Photo credits:
   [@DakotaTheKat](https://twitter.com/dakotathekat/status/736914710185058304),
+  [WAPSimulator](http://www.sec.co.jp/wap/wap-en/wapsim/wapsim.htm)
 
 <!-- }}} -->
 
